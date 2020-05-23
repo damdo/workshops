@@ -27,6 +27,6 @@
     "hideintro": true
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "ubuntu2004"
   }
 }
