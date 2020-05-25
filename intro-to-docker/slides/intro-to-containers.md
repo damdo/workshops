@@ -268,6 +268,13 @@ visit: [tinyurl.com/intro-docker](https://tinyurl.com/intro-docker)
 <p style="font-size:25px">
 Credits: <br>
 https://lanrat.com/ambergris/
+
+---
+<!-- .slide: data-transition="none" -->
+## more on Containers
+<p style="font-size:25px">
+- Deep dive in container internals (cgroups, namespaces, COW) https://www.youtube.com/watch?v=sK5i-N34im8
+
 ---
 <!-- .slide: data-transition="none" -->
 ## Fine
