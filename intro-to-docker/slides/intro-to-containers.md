@@ -103,10 +103,13 @@ were changed through manual intervention (SSH)<br> or via automated scripts.
 <div style="font-size:30px">
 
 - easier to setup machines
+
 - easier to snapshot/clone machines
 
 - **machines** were still updated **in place** (SSH, scripts)
+
 - **machines** where still kept **running** 🏃‍♀️ as long as possible
+
 - machine 🆙 **uptime** ⏱️ was considered a great achievement
 
 ---
@@ -152,7 +155,7 @@ the Cattle model is what future
 ## A new idea of server
 <div style="font-size:30px">
 
-So there is a new portraied idea of infrastructure<br>
+So there is a new portrayed idea of infrastructure<br>
 as one composed by servers that are:
 - **ephemeral** - (can last a very short time)
 - **immutable** - (don't change during their lifetime)
@@ -258,6 +261,13 @@ Docker allows us to define, build and run containers quickly.<br>
 Let's play with it.<br><br>
 visit: [tinyurl.com/intro-docker](https://tinyurl.com/intro-docker)
 
+---
+<!-- .slide: data-transition="none" -->
+## docker: container lifecycle
+<img src="/images/container-lifecycle.png" width="600px">
+<p style="font-size:25px">
+Credits: <br>
+https://lanrat.com/ambergris/
 ---
 <!-- .slide: data-transition="none" -->
 ## Fine
