@@ -57,7 +57,7 @@
   },
   "environment": {
       "showdashboard": false,
-      "dashboard": "Containerized Node.js app (port 9898)",
+      "dashboard": "Intro to Docker",
       "uilayout": "editor-terminal-v1",
       "uisettings": "dockerfile",
       "uieditorpath": "/root/scenario/",
