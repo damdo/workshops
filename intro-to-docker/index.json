@@ -2,30 +2,79 @@
   "title": "Intro to Docker",
   "description": "In this lab, we will get hands on with the Docker containers",
   "difficulty": "Beginner",
-  "time": "60",
+  "time": "30",
   "details": {
     "steps": [
       {
-        "title": "Test",
+        "title": "Dockerfile",
         "text": "step1.md"
       },
       {
-        "title": "Test 2",
+        "title": "Building an image",
         "text": "step2.md"
+      },
+      {
+        "title": "Pulling an image",
+        "text": "step3.md"
+      },
+      {
+        "title": "Running a container",
+        "text": "step4.md"
+      },
+      {
+        "title": "Inspecting a container",
+        "text": "step5.md"
+      },
+      {
+        "title": "Stopping and Removing a container",
+        "text": "step6.md"
+      },
+      {
+        "title": "Building a second container",
+        "text": "step7.md"
+      },
+      {
+        "title": "Putting al together",
+        "text": "step8.md"
+      },
+      {
+        "title": "Volumes",
+        "text": "step9.md"
+      },
+      {
+        "title": "Pushing an image to a registry",
+        "text": "step10.md"
       }
     ],
     "intro": {
-      "text": "intro.md"
+        "text": "intro.md",
+        "courseData": "background-init.sh",
+        "code": "foreground-init.sh"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "hidefinish": true,
-    "hideintro": true
+      "showdashboard": false,
+      "dashboard": "Containerized Node.js app (port 9898)",
+      "uilayout": "editor-terminal-v1",
+      "uisettings": "dockerfile",
+      "uieditorpath": "/root/scenario/",
+      "uimessage1": "Intro to Docker\r\n",
+      "uidependencies": [
+        "/socket.io/socket.io.js",
+        "/javascripts/term.js",
+        "/js/vendor/ace/ace.js",
+        "/js/editor.js",
+        "/javascripts/terminal-application.js",
+        "/javascripts/editor-terminal-application.js",
+        "/javascripts/sync-editor-to-container.js"
+      ]
   },
+  "files": [
+    "backend/Dockerfile"
+  ],
   "backend": {
     "imageid": "ubuntu1804"
   }

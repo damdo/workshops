@@ -1,1 +1,1 @@
-In this lab, we will get hands on with the Docker containers
+In this lab, we will get some experience with Docker.
