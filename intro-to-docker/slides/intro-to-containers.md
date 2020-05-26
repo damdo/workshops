@@ -1,4 +1,5 @@
 # Introduction to Containers
+2020-05-27<br>
 [`@damdo`](https://twitter.com/damdo)
 <!-- .slide: data-transition="none" -->
 
@@ -14,10 +15,6 @@ total 3
 -rw-r--r--  twitter: @damdo
 -rw-r--r--  github: @damdo
 ```
-Note:
-- d
-- d
-
 ---
 <!-- .slide: data-transition="none" -->
 ## Disclaimer
@@ -272,9 +269,11 @@ https://lanrat.com/ambergris/
 ---
 <!-- .slide: data-transition="none" -->
 ## more on Containers
-<p style="font-size:25px">
-- Deep dive in container internals (cgroups, namespaces, COW) https://www.youtube.com/watch?v=sK5i-N34im8
-
+<ul style="font-size:25px">
+<li>Deep dive in container internals (cgroups, namespaces, COW) https://www.youtube.com/watch?v=sK5i-N34im8</li>
+<br>
+<li>What’s Under the Hood of Docker? Process Separation in the Linux kernel https://www.youtube.com/watch?v=8iWb71ZOZPc</li>
+</ul>
 ---
 <!-- .slide: data-transition="none" -->
 ## Fine
