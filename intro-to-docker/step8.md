@@ -18,4 +18,4 @@ COPY index.html /usr/share/nginx/html
 Now, paste above content—see the copy icon in the upper-right corner of above block—and it will be automatically saved in a file called `Dockerfile` in the `frontend/` directory.
 
 Let's then build a `frontend` image off of that:
-`docker build -t frontend .`{{execute}}
+`docker build --tag frontend frontend/`{{execute}}
