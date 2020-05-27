@@ -30,20 +30,24 @@
         "text": "step6.md"
       },
       {
-        "title": "Building a second container",
+        "title": "Starting our App backend",
         "text": "step7.md"
       },
       {
-        "title": "Putting al together",
+        "title": "Building a second container",
         "text": "step8.md"
       },
       {
-        "title": "Volumes",
+        "title": "Putting al together",
         "text": "step9.md"
       },
       {
-        "title": "Pushing an image to a registry",
+        "title": "Volumes",
         "text": "step10.md"
+      },
+      {
+        "title": "Pushing an image to a registry",
+        "text": "step11.md"
       }
     ],
     "intro": {

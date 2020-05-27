@@ -7,7 +7,7 @@ credits: https://stackoverflow.com/questions/55174274/understanding-docker-layer
 
 credits: https://medium.com/docker-captain/docker-basics-f1a06fde18fb
 
-A Dockerfile declares how a container image is supposed formed and built.
+A Dockerfile declares how a container image is supposed to be formed and built.
 It vaguely recalls how we setup software on a machine:
 we specify the steps to copy files around,
 we install a package or maybe even build it from source.
