@@ -1,3 +1,6 @@
-FROM nginx:latest
+FROM node:alpine
 
-COPY index.html /usr/share/nginx/html
+COPY . .
+RUN npm install
+
+CMD ["node", "index.js"]

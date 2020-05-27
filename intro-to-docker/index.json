@@ -42,12 +42,8 @@
         "text": "step9.md"
       },
       {
-        "title": "Volumes",
-        "text": "step10.md"
-      },
-      {
         "title": "Pushing an image to a registry",
-        "text": "step11.md"
+        "text": "step10.md"
       }
     ],
     "intro": {
