@@ -18,7 +18,7 @@ Let's now suppose we want to build a container image for the backend.
 
 To do that we can define a Dockerfile in the `backend/` dir that looks like this:
 
-<pre class="file" data-filename="Dockerfile" data-target="replace">
+<pre class="file" data-filename="backend/Dockerfile" data-target="replace">
 
 # The FROM instruction initializes a new build stage
 # and sets the Base Image for subsequent instructions.
