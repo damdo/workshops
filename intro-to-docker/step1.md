@@ -1,4 +1,13 @@
-A Dockerfile declares how a container image is supposed to be built.
+Container images are composable (stackable) blocks of layers.
+![layers](https://i.stack.imgur.com/fotPN.jpg)
+
+credits: https://stackoverflow.com/questions/55174274/understanding-docker-layers-and-future-changes
+
+![layers2](https://miro.medium.com/max/1400/1*hZgRPWerZVbaGT8jJiJZVQ.jpeg)
+
+credits: https://medium.com/docker-captain/docker-basics-f1a06fde18fb
+
+A Dockerfile declares how a container image is supposed formed and built.
 It vaguely recalls how we setup software on a machine:
 we specify the steps to copy files around,
 we install a package or maybe even build it from source.
