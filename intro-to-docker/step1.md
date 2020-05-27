@@ -13,7 +13,7 @@ To do that we can define a Dockerfile in the `backend/` dir that looks like this
 
 # The FROM instruction initializes a new build stage
 # and sets the Base Image for subsequent instructions.
-FROM golang:1.14.3
+FROM golang:1.14.3-alpine
 
 # The WORKDIR instruction sets the working directory
 # for any RUN, CMD, ENTRYPOINT, COPY and ADD instructions
