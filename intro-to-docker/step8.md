@@ -11,6 +11,7 @@ To achive this we can define a Dockerfile in the `frontend/` dir that looks like
 FROM node:alpine
 
 COPY . .
+RUN npm install
 
 CMD ["node", "index.js"]
 </pre>
